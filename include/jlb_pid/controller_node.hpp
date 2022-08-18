@@ -45,7 +45,7 @@ class ControllerNode : public rclcpp::Node
 
   public:
     inline static constexpr double DEFAULT_UPDATE_RATE_HZ =
-        1000; // Default update rate for the node, in `Hz`
+        10; // Default update rate for the node, in `Hz`
 
     /**
      * @brief Construct a new controller node.
